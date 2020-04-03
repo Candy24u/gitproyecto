@@ -18,3 +18,11 @@ img {
 a:hover {
     color: hotpink;
   }
+  video {
+    width: 50%;
+    height: auto;
+  }
+  table{
+    width: 100%;
+    background-color: lightcyan;
+}
