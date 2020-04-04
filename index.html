@@ -70,7 +70,25 @@ La ciudad de París, dentro de sus estrechos límites administrativos, tiene una
             th, td{
                 padding: 10px;
             }
-            </style>
-    
+            </style> 
+    <br><br><form action="/index.html" method="POST">
+        <label for="nombre">Ingrese su nombre</label><br>
+        <input type="text" placeholder="Escribe tu nombre"><br><br>
+        <label for="email">Ingrese su correo:</label><br>
+
+        <input type="email" id="email"
+         pattern=".+@gmail.com" size="30" required><br>
+       
+          <br><label for="pass">Contraseña (8 caracteres minimo):</label><br>
+         <input type="password" id="pass" name="Contraseña"
+           minlength="8" required><br><br>
+
+           <label for="phone">Ingresa tu número de Télefono:</label><br>
+
+        <input type="tel" id="phone" name="phone"
+       required><br>
+
+       <br> <input type="submit" value="Enviar">
+      </form> 
 </body>
 </html>

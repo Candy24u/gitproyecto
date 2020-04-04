@@ -26,3 +26,21 @@ a:hover {
     width: 100%;
     background-color: lightcyan;
 }
+form{ 
+    align-self: start;
+    background-color: lightpink;
+    border-radius: 5px;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+input[type] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: crimson;
+    background-color: lemonchiffon;
+  }
+  
